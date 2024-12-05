@@ -1,0 +1,15 @@
+{
+  "package_name": "stamp_markerarray",
+  "output_dir": "/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_generator_type_description/stamp_markerarray",
+  "idl_tuples": [
+    "/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_adapter/stamp_markerarray:msg/StampedMarkerArray.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "visualization_msgs:/opt/ros/iron/share/visualization_msgs",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "sensor_msgs:/opt/ros/iron/share/sensor_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

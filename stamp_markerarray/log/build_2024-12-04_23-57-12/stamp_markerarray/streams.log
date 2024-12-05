@@ -1,0 +1,244 @@
+[0.005s] Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/stamp_markerarray -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/stamp_markerarray/install/stamp_markerarray
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.213s] -- Detecting CXX compile features - done
+[0.214s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.314s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.358s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[0.376s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.430s] -- Found visualization_msgs: 5.0.1 (/opt/ros/iron/share/visualization_msgs/cmake)
+[0.597s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.603s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.807s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.205s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.206s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.220s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.221s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.221s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.221s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.233s] -- Found PythonExtra: .so  
+[1.275s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.284s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.285s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_generator_c>;$<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_typesupport_introspection_cpp>;/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_generator_c;/home/tyjt/message/stamp_markerarray/build/stamp_markerarray/rosidl_generator_py
+[1.285s] -- Configured cppcheck exclude dirs and/or files: 
+[1.286s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.286s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.286s] -- Added test 'lint_cmake' to check CMake code style
+[1.287s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.289s] -- Added test 'uncrustify' to check C / C++ code style
+[1.290s] -- Configured uncrustify additional arguments: 
+[1.290s] -- Added test 'xmllint' to check XML markup files
+[1.291s] -- Configuring done
+[1.312s] -- Generating done
+[1.313s] -- Build files have been written to: /home/tyjt/message/stamp_markerarray/build/stamp_markerarray
+[1.320s] Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/stamp_markerarray -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/stamp_markerarray/install/stamp_markerarray
+[1.321s] Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/stamp_markerarray/build/stamp_markerarray -- -j20 -l20
+[1.350s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.355s] [  2%] Built target ament_cmake_python_copy_stamp_markerarray
+[1.454s] [  2%] Built target stamp_markerarray__rosidl_generator_type_description
+[1.460s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.466s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.474s] running egg_info
+[1.474s] creating stamp_markerarray.egg-info
+[1.474s] writing stamp_markerarray.egg-info/PKG-INFO
+[1.474s] writing dependency_links to stamp_markerarray.egg-info/dependency_links.txt
+[1.474s] writing top-level names to stamp_markerarray.egg-info/top_level.txt
+[1.474s] writing manifest file 'stamp_markerarray.egg-info/SOURCES.txt'
+[1.475s] reading manifest file 'stamp_markerarray.egg-info/SOURCES.txt'
+[1.475s] writing manifest file 'stamp_markerarray.egg-info/SOURCES.txt'
+[1.490s] [  8%] Built target ament_cmake_python_build_stamp_markerarray_egg
+[1.585s] [  8%] Built target stamp_markerarray__cpp
+[1.604s] [ 17%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_generator_c.dir/rosidl_generator_c/stamp_markerarray/msg/detail/stamped_marker_array__type_support.c.o[0m
+[1.604s] [ 17%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_generator_c.dir/rosidl_generator_c/stamp_markerarray/msg/detail/stamped_marker_array__functions.c.o[0m
+[1.604s] [ 17%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_generator_c.dir/rosidl_generator_c/stamp_markerarray/msg/detail/stamped_marker_array__description.c.o[0m
+[1.631s] [ 20%] [32m[1mLinking C shared library libstamp_markerarray__rosidl_generator_c.so[0m
+[1.654s] [ 20%] Built target stamp_markerarray__rosidl_generator_c
+[1.660s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.660s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.660s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.660s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.661s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.661s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.781s] [ 41%] [32mBuilding CXX object CMakeFiles/stamp_markerarray__rosidl_typesupport_c.dir/rosidl_typesupport_c/stamp_markerarray/msg/stamped_marker_array__type_support.cpp.o[0m
+[1.792s] [ 44%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stamp_markerarray/msg/detail/stamped_marker_array__type_support.c.o[0m
+[1.793s] [ 47%] [32mBuilding CXX object CMakeFiles/stamp_markerarray__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stamp_markerarray/msg/detail/stamped_marker_array__type_support_c.cpp.o[0m
+[1.795s] [ 50%] [32mBuilding CXX object CMakeFiles/stamp_markerarray__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stamp_markerarray/msg/stamped_marker_array__type_support.cpp.o[0m
+[1.795s] [ 52%] [32mBuilding CXX object CMakeFiles/stamp_markerarray__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stamp_markerarray/msg/detail/stamped_marker_array__type_support.cpp.o[0m
+[1.802s] [ 55%] [32mBuilding CXX object CMakeFiles/stamp_markerarray__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stamp_markerarray/msg/detail/dds_fastrtps/stamped_marker_array__type_support.cpp.o[0m
+[1.805s] [ 58%] [32m[1mLinking CXX shared library libstamp_markerarray__rosidl_typesupport_c.so[0m
+[1.820s] [ 61%] [32m[1mLinking C shared library libstamp_markerarray__rosidl_typesupport_introspection_c.so[0m
+[1.829s] [ 61%] Built target stamp_markerarray__rosidl_typesupport_c
+[1.843s] [ 61%] Built target stamp_markerarray__rosidl_typesupport_introspection_c
+[1.968s] [ 64%] [32m[1mLinking CXX shared library libstamp_markerarray__rosidl_typesupport_fastrtps_c.so[0m
+[1.995s] [ 67%] [32m[1mLinking CXX shared library libstamp_markerarray__rosidl_typesupport_cpp.so[0m
+[2.014s] [ 67%] Built target stamp_markerarray__rosidl_typesupport_fastrtps_c
+[2.021s] [ 67%] Built target stamp_markerarray__rosidl_typesupport_cpp
+[2.124s] [ 73%] [32m[1mLinking CXX shared library libstamp_markerarray__rosidl_typesupport_introspection_cpp.so[0m
+[2.124s] [ 73%] [32m[1mLinking CXX shared library libstamp_markerarray__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.169s] [ 73%] Built target stamp_markerarray__rosidl_typesupport_fastrtps_cpp
+[2.170s] [ 73%] Built target stamp_markerarray__rosidl_typesupport_introspection_cpp
+[2.182s] [ 73%] Built target stamp_markerarray
+[2.193s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.336s] [ 76%] Built target stamp_markerarray__py
+[2.348s] [ 79%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_generator_py.dir/rosidl_generator_py/stamp_markerarray/msg/_stamped_marker_array_s.c.o[0m
+[2.435s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/stamp_markerarray/libstamp_markerarray__rosidl_generator_py.so[0m
+[2.474s] [ 82%] Built target stamp_markerarray__rosidl_generator_py
+[2.486s] [ 88%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.486s] [ 88%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.486s] [ 91%] [32mBuilding C object CMakeFiles/stamp_markerarray__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_c.c.o[0m
+[2.542s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.542s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.545s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.568s] [100%] Built target stamp_markerarray__rosidl_typesupport_introspection_c__pyext
+[2.568s] [100%] Built target stamp_markerarray__rosidl_typesupport_c__pyext
+[2.570s] [100%] Built target stamp_markerarray__rosidl_typesupport_fastrtps_c__pyext
+[2.578s] Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/stamp_markerarray/build/stamp_markerarray -- -j20 -l20
+[2.617s] Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/stamp_markerarray/build/stamp_markerarray
+[2.622s] -- Install configuration: ""
+[2.622s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/ament_index/resource_index/rosidl_interfaces/stamp_markerarray
+[2.622s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/msg/StampedMarkerArray.json
+[2.622s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.622s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.622s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/stamped_marker_array.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__type_support.c
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__functions.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__type_support.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__description.c
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__struct.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__functions.c
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/rosidl_generator_c__visibility_control.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/library_path.sh
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/library_path.dsv
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_generator_c.so
+[2.623s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_generator_c.so" to ""
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__rosidl_typesupport_fastrtps_c.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.623s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_fastrtps_c.so
+[2.623s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_fastrtps_c.so" to ""
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.623s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__builder.hpp
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__struct.hpp
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__traits.hpp
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/stamped_marker_array.hpp
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/dds_fastrtps
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_fastrtps_cpp.so
+[2.624s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__type_support.c
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__rosidl_typesupport_introspection_c.h
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_introspection_c.so
+[2.624s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_introspection_c.so" to ""
+[2.624s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_c.so
+[2.624s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_c.so" to ""
+[2.624s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray
+[2.625s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg
+[2.625s] -- Up-to-date: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__type_support.cpp
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/stamp_markerarray/stamp_markerarray/msg/detail/stamped_marker_array__rosidl_typesupport_introspection_cpp.hpp
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_introspection_cpp.so
+[2.625s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_introspection_cpp.so" to ""
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_cpp.so
+[2.625s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_typesupport_cpp.so" to ""
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/pythonpath.sh
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/pythonpath.dsv
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray-0.0.0-py3.10.egg-info
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray-0.0.0-py3.10.egg-info/PKG-INFO
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray-0.0.0-py3.10.egg-info/top_level.txt
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_introspection_c.c
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_c.c
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/libstamp_markerarray__rosidl_generator_py.so
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/_stamp_markerarray_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg
+[2.625s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg/_stamped_marker_array.py
+[2.626s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg/_stamped_marker_array_s.c
+[2.626s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg/__init__.py
+[2.626s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/__init__.py
+[2.645s] Listing '/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray'...
+[2.645s] Compiling '/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/__init__.py'...
+[2.645s] Listing '/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg'...
+[2.645s] Compiling '/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg/__init__.py'...
+[2.645s] Compiling '/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/msg/_stamped_marker_array.py'...
+[2.647s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.647s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.647s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.648s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.648s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages/stamp_markerarray/stamp_markerarray_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_generator_py.so
+[2.648s] -- Set runtime path of "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/libstamp_markerarray__rosidl_generator_py.so" to ""
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/msg/StampedMarkerArray.idl
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/msg/StampedMarkerArray.msg
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/ament_index/resource_index/package_run_dependencies/stamp_markerarray
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/ament_index/resource_index/parent_prefix_path/stamp_markerarray
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/ament_prefix_path.sh
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/ament_prefix_path.dsv
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/path.sh
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/environment/path.dsv
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/local_setup.bash
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/local_setup.sh
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/local_setup.zsh
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/local_setup.dsv
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/package.dsv
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/ament_index/resource_index/packages/stamp_markerarray
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_generator_cExport.cmake
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_generator_cExport-noconfig.cmake
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_typesupport_fastrtps_cExport.cmake
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.648s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_generator_cppExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_introspection_cExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_cExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_cExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_introspection_cppExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_cppExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarray__rosidl_typesupport_cppExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_generator_pyExport.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/export_stamp_markerarray__rosidl_generator_pyExport-noconfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/rosidl_cmake-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/ament_cmake_export_libraries-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/ament_cmake_export_targets-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarrayConfig.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/cmake/stamp_markerarrayConfig-version.cmake
+[2.649s] -- Installing: /home/tyjt/message/stamp_markerarray/install/stamp_markerarray/share/stamp_markerarray/package.xml
+[2.651s] Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/stamp_markerarray/build/stamp_markerarray

@@ -1,0 +1,242 @@
+[0.005s] Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/pc_msg -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/pc_msg/install/pc_msg
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.231s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.367s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.420s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.422s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.465s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.467s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[0.500s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.777s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.141s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.142s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.173s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.173s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.173s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.173s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.193s] -- Found PythonExtra: .so  
+[1.232s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.242s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_generator_c>;$<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/tyjt/message/pc_msg/build/pc_msg/rosidl_typesupport_introspection_cpp>;/home/tyjt/message/pc_msg/build/pc_msg/rosidl_generator_c;/home/tyjt/message/pc_msg/build/pc_msg/rosidl_generator_py
+[1.242s] -- Configured cppcheck exclude dirs and/or files: 
+[1.243s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.243s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.244s] -- Added test 'lint_cmake' to check CMake code style
+[1.244s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.247s] -- Added test 'uncrustify' to check C / C++ code style
+[1.247s] -- Configured uncrustify additional arguments: 
+[1.247s] -- Added test 'xmllint' to check XML markup files
+[1.248s] -- Configuring done
+[1.266s] -- Generating done
+[1.268s] -- Build files have been written to: /home/tyjt/message/pc_msg/build/pc_msg
+[1.274s] Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/pc_msg -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/pc_msg/install/pc_msg
+[1.275s] Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/pc_msg/build/pc_msg -- -j20 -l20
+[1.302s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.306s] [  2%] Built target ament_cmake_python_copy_pc_msg
+[1.409s] [  2%] Built target pc_msg__rosidl_generator_type_description
+[1.415s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.420s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.425s] running egg_info
+[1.425s] creating pc_msg.egg-info
+[1.425s] writing pc_msg.egg-info/PKG-INFO
+[1.425s] writing dependency_links to pc_msg.egg-info/dependency_links.txt
+[1.425s] writing top-level names to pc_msg.egg-info/top_level.txt
+[1.425s] writing manifest file 'pc_msg.egg-info/SOURCES.txt'
+[1.426s] reading manifest file 'pc_msg.egg-info/SOURCES.txt'
+[1.427s] writing manifest file 'pc_msg.egg-info/SOURCES.txt'
+[1.442s] [  8%] Built target ament_cmake_python_build_pc_msg_egg
+[1.537s] [  8%] Built target pc_msg__cpp
+[1.551s] [ 11%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_generator_c.dir/rosidl_generator_c/pc_msg/msg/detail/sync_pc__description.c.o[0m
+[1.551s] [ 14%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_generator_c.dir/rosidl_generator_c/pc_msg/msg/detail/sync_pc__functions.c.o[0m
+[1.551s] [ 17%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_generator_c.dir/rosidl_generator_c/pc_msg/msg/detail/sync_pc__type_support.c.o[0m
+[1.576s] [ 20%] [32m[1mLinking C shared library libpc_msg__rosidl_generator_c.so[0m
+[1.599s] [ 20%] Built target pc_msg__rosidl_generator_c
+[1.605s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.606s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.606s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.606s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.606s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.606s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.728s] [ 44%] [32mBuilding CXX object CMakeFiles/pc_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pc_msg/msg/sync_pc__type_support.cpp.o[0m
+[1.728s] [ 44%] [32mBuilding CXX object CMakeFiles/pc_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pc_msg/msg/sync_pc__type_support.cpp.o[0m
+[1.738s] [ 47%] [32mBuilding CXX object CMakeFiles/pc_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pc_msg/msg/detail/sync_pc__type_support.cpp.o[0m
+[1.738s] [ 50%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pc_msg/msg/detail/sync_pc__type_support.c.o[0m
+[1.740s] [ 52%] [32mBuilding CXX object CMakeFiles/pc_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pc_msg/msg/detail/sync_pc__type_support_c.cpp.o[0m
+[1.742s] [ 55%] [32mBuilding CXX object CMakeFiles/pc_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pc_msg/msg/detail/dds_fastrtps/sync_pc__type_support.cpp.o[0m
+[1.757s] [ 58%] [32m[1mLinking CXX shared library libpc_msg__rosidl_typesupport_c.so[0m
+[1.760s] [ 61%] [32m[1mLinking C shared library libpc_msg__rosidl_typesupport_introspection_c.so[0m
+[1.780s] [ 61%] Built target pc_msg__rosidl_typesupport_introspection_c
+[1.780s] [ 61%] Built target pc_msg__rosidl_typesupport_c
+[1.912s] [ 64%] [32m[1mLinking CXX shared library libpc_msg__rosidl_typesupport_fastrtps_c.so[0m
+[1.916s] [ 67%] [32m[1mLinking CXX shared library libpc_msg__rosidl_typesupport_cpp.so[0m
+[1.944s] [ 67%] Built target pc_msg__rosidl_typesupport_cpp
+[1.955s] [ 67%] Built target pc_msg__rosidl_typesupport_fastrtps_c
+[1.995s] [ 70%] [32m[1mLinking CXX shared library libpc_msg__rosidl_typesupport_introspection_cpp.so[0m
+[2.030s] [ 73%] [32m[1mLinking CXX shared library libpc_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.038s] [ 73%] Built target pc_msg__rosidl_typesupport_introspection_cpp
+[2.072s] [ 73%] Built target pc_msg__rosidl_typesupport_fastrtps_cpp
+[2.083s] [ 73%] Built target pc_msg
+[2.099s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.247s] [ 76%] Built target pc_msg__py
+[2.258s] [ 79%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_generator_py.dir/rosidl_generator_py/pc_msg/msg/_sync_pc_s.c.o[0m
+[2.339s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/pc_msg/libpc_msg__rosidl_generator_py.so[0m
+[2.373s] [ 82%] Built target pc_msg__rosidl_generator_py
+[2.389s] [ 85%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pc_msg/_pc_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.390s] [ 88%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pc_msg/_pc_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.390s] [ 91%] [32mBuilding C object CMakeFiles/pc_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pc_msg/_pc_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[2.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pc_msg/pc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pc_msg/pc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pc_msg/pc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.470s] [100%] Built target pc_msg__rosidl_typesupport_c__pyext
+[2.470s] [100%] Built target pc_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.470s] [100%] Built target pc_msg__rosidl_typesupport_introspection_c__pyext
+[2.476s] Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/pc_msg/build/pc_msg -- -j20 -l20
+[2.540s] Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/pc_msg/build/pc_msg
+[2.549s] -- Install configuration: ""
+[2.549s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/ament_index/resource_index/rosidl_interfaces/pc_msg
+[2.550s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/msg/SyncPc.json
+[2.550s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.550s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.550s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.550s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__struct.h
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__type_support.c
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__description.c
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__functions.c
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__functions.h
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__type_support.h
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/rosidl_generator_c__visibility_control.h
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/sync_pc.h
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/library_path.sh
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/library_path.dsv
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_generator_c.so
+[2.551s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_generator_c.so" to ""
+[2.551s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.551s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.551s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.551s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__rosidl_typesupport_fastrtps_c.h
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_fastrtps_c.so
+[2.552s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.552s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.552s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.552s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__rosidl_typesupport_introspection_c.h
+[2.552s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__type_support.c
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_introspection_c.so
+[2.552s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_introspection_c.so" to ""
+[2.552s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_c.so
+[2.552s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_c.so" to ""
+[2.552s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__builder.hpp
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__traits.hpp
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__struct.hpp
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/sync_pc.hpp
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__rosidl_typesupport_fastrtps_cpp.hpp
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/dds_fastrtps
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.553s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg
+[2.553s] -- Up-to-date: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail
+[2.553s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__type_support.cpp
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/include/pc_msg/pc_msg/msg/detail/sync_pc__rosidl_typesupport_introspection_cpp.hpp
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_introspection_cpp.so
+[2.554s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_cpp.so
+[2.554s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_typesupport_cpp.so" to ""
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/pythonpath.sh
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/pythonpath.dsv
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg-0.0.0-py3.10.egg-info
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg-0.0.0-py3.10.egg-info/top_level.txt
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/_pc_msg_s.ep.rosidl_typesupport_c.c
+[2.554s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/_pc_msg_s.ep.rosidl_typesupport_introspection_c.c
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/libpc_msg__rosidl_generator_py.so
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/_pc_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg/_sync_pc_s.c
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg/_sync_pc.py
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg/__init__.py
+[2.555s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/__init__.py
+[2.576s] Listing '/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg'...
+[2.576s] Compiling '/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/__init__.py'...
+[2.576s] Listing '/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg'...
+[2.576s] Compiling '/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg/__init__.py'...
+[2.576s] Compiling '/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/msg/_sync_pc.py'...
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.579s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.579s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.579s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages/pc_msg/pc_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_generator_py.so
+[2.579s] -- Set runtime path of "/home/tyjt/message/pc_msg/install/pc_msg/lib/libpc_msg__rosidl_generator_py.so" to ""
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/msg/SyncPc.idl
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/msg/SyncPc.msg
+[2.579s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/ament_index/resource_index/package_run_dependencies/pc_msg
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/ament_index/resource_index/parent_prefix_path/pc_msg
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/ament_prefix_path.sh
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/ament_prefix_path.dsv
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/path.sh
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/environment/path.dsv
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/local_setup.bash
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/local_setup.sh
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/local_setup.zsh
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/local_setup.dsv
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/package.dsv
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/ament_index/resource_index/packages/pc_msg
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_generator_cExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_generator_cExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_cExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_generator_cppExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.580s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_cppExport.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_generator_pyExport.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/export_pc_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/rosidl_cmake-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msgConfig.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/cmake/pc_msgConfig-version.cmake
+[2.581s] -- Installing: /home/tyjt/message/pc_msg/install/pc_msg/share/pc_msg/package.xml
+[2.582s] Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/pc_msg/build/pc_msg
