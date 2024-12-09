@@ -1,4 +1,0 @@
-source;share/stamp_markerarray/environment/ament_prefix_path.sh
-source;share/stamp_markerarray/environment/library_path.sh
-source;share/stamp_markerarray/environment/path.sh
-source;share/stamp_markerarray/environment/pythonpath.sh

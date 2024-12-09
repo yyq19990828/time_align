@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tyjt/time_align_ws/install/time_align/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/stamp_markerarray/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/sensor_msgs_py/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/pc_msg/lib/python3.10/site-packages",
+        "/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages",
+        "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tyjt/time_align_ws/install/time_align/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/stamp_markerarray/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/sensor_msgs_py/lib/python3.10/site-packages",
+        "/home/tyjt/time_align_ws/install/pc_msg/lib/python3.10/site-packages",
+        "/home/tyjt/message/pc_msg/install/pc_msg/lib/python3.10/site-packages",
+        "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

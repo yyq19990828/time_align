@@ -1,6 +1,0 @@
-Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/pc_msg -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/pc_msg/install/pc_msg
-Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/pc_msg -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/pc_msg/install/pc_msg
-Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/pc_msg/build/pc_msg -- -j20 -l20
-Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/pc_msg/build/pc_msg -- -j20 -l20
-Invoking command in '/home/tyjt/message/pc_msg/build/pc_msg': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/pc_msg/build/pc_msg
-Invoked command in '/home/tyjt/message/pc_msg/build/pc_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/pc_msg/build/pc_msg

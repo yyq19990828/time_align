@@ -16,3 +16,15 @@
 ~~`timestap_align_node.py`~~
 
 启动 `stamp_marker.py`和 `timestap_align_node_subprocess.py`接收和同步topic
+
+
+
+## compile
+colcon build
+source install/local_setup.bash 
+
+## run
+### align pts
+ros2 launch time_align launch_sync_pts.py
+### align all
+ros2 launch time_align launch_sync_all.py

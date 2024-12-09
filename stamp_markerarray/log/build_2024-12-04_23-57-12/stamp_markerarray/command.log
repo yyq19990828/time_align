@@ -1,6 +1,0 @@
-Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/stamp_markerarray -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/stamp_markerarray/install/stamp_markerarray
-Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/tyjt/message/stamp_markerarray -DCMAKE_INSTALL_PREFIX=/home/tyjt/message/stamp_markerarray/install/stamp_markerarray
-Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/stamp_markerarray/build/stamp_markerarray -- -j20 -l20
-Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/tyjt/message/stamp_markerarray/build/stamp_markerarray -- -j20 -l20
-Invoking command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/stamp_markerarray/build/stamp_markerarray
-Invoked command in '/home/tyjt/message/stamp_markerarray/build/stamp_markerarray' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/tyjt/message/stamp_markerarray/build/stamp_markerarray

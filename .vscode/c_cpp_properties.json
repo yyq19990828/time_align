@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tyjt/time_align_ws/install/stamp_markerarray/include/**",
+        "/home/tyjt/time_align_ws/install/pc_msg/include/**",
+        "/home/tyjt/message/pc_msg/install/pc_msg/include/**",
+        "/home/tyjt/message/stamp_markerarray/install/stamp_markerarray/include/**",
+        "/opt/ros/iron/include/**",
+        "/home/tyjt/time_align_ws/src/pc_msg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
